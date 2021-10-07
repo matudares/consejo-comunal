@@ -1,0 +1,16 @@
+<form (ngSubmit)="onSubmit()" >
+   
+    <mat-form-field class="camposFormulario" appearance="fill">
+        <mat-label>ID:</mat-label>
+        <input matInput type="number" name="id" [(ngModel)]="id">
+    </mat-form-field>
+
+    <mat-form-field class="camposFormulario" appearance="fill">
+        <mat-label>Nombre:</mat-label>
+        <input matInput type="text" name="text" [(ngModel)]="text">
+    </mat-form-field>
+    <button type="submit" mat-raised-button color="primary">Confirmar</button>
+
+</form>
+
+    

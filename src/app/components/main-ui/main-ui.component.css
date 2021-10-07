@@ -1,0 +1,29 @@
+.entorno{
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: #f6f6f6;
+    position: relative;
+
+}
+
+#seleccion{
+    width: 100%;
+    background-color: #FBFBFB;
+}
+
+#tablaComunidad{
+    width: 100%;
+    color: #f6f6f6;
+    max-height: 40vh;
+}
+
+#scroll{
+    overflow-y: scroll;
+    max-height: 400px;
+}
+
+.boton-tabla{
+    height: 10vh;
+    width: 10vh;
+}
